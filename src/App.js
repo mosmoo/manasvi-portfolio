@@ -1,9 +1,14 @@
 import './App.css';
+import Nav from './components/Navbar';
+import NameDisplay from './components/NameDisplay';
+import Projects from './components/ProjectCard';
 
 function App() {
   return (
-    <div>
-      Hi
+    <div className='h-screen w-screen bg-white'>
+      <Nav />
+      <NameDisplay />
+      <Projects />
     </div>
   );
 }
