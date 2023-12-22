@@ -5,7 +5,7 @@ import Projects from './components/ProjectCard';
 
 function App() {
   return (
-    <div className='h-screen w-screen bg-white'>
+    <div id="home" className='h-screen w-screen bg-white'>
       <Nav />
       <NameDisplay />
       <Projects />
