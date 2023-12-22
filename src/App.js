@@ -8,7 +8,7 @@ import AboutMe from './components/AboutMe';
 function App() {
   return (
     <div id="home" className='h-screen w-screen bg-white'>
-      {/* <Nav /> */}
+      <Nav />
       <NameDisplay />
       <Projects />
       <AboutMe />
