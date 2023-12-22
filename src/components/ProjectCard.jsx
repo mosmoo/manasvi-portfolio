@@ -15,19 +15,19 @@ function ProjectCard({ image, title, description }) {
 function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description for Project 1",
-      image: "https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg",
+      title: "Munch Meet",
+      description: "Crafted a dynamic food-centric platform merging Django PostgreSQL backend with React Node.js frontend, fostering a vibrant community sharing delectable food experiences and locations.",
+      image: "https://i.postimg.cc/d1nW353c/Munch-Meet.png",
     },
     {
-      title: "Project 2",
-      description: "Description for Project 2",
-      image: "https://images.pexels.com/photos/3844788/pexels-photo-3844788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      title: "Food Wars",
+      description: "Welcome to 'Food Wars,' a captivating MERN stack app that invites anime enthusiasts into the vibrant world of culinary creativity. Delve into a comprehensive catalogue of characters and their tantalizing dishes from the beloved anime 'Food Wars,' while experiencing seamless user interactions.",
+      image: "https://i.postimg.cc/MZVJDQHk/FoodWars.png",
     },
     {
-        title: "Project 1",
-        description: "Description for Project 1",
-        image: "https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg",
+        title: "Pixel Art Game",
+        description: "Discover a charming pixel art game made using just Vanilla JavaScript. Dive into a nostalgic adventure where every pixel creates a simple, delightful experience. It's a fun journey into classic gaming simplicity!",
+        image: "https://i.postimg.cc/FRzMhzXh/Screenshot-2023-12-21-at-10-28-52-PM.png",
       }
     // Add more projects here as needed
   ];
