@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function ProjectCard({ image, title, description, link }) {
   return (
@@ -48,9 +49,15 @@ function Projects() {
 
   return (
     <div className="pt-10 ">
-      <marquee behavior="scroll" direction="down" scrollamount="1" loop="1">
-        <h1 style={{ textAlign:"center", fontFamily: "'Kalnia', serif" }} className="text-3xl text-slate-600 p-3"> Projects </h1>
-      </marquee>
+      <motion.h1
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        style={{ textAlign: "center", fontFamily: "'Kalnia', serif" }}
+        className="text-3xl text-slate-600 p-3"
+      >
+        Projects
+      </motion.h1>
       <div className="flex flex-wrap justify-center">
         {projects.map((project, index) => (
           <ProjectCard
