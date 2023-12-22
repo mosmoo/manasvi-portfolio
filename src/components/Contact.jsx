@@ -15,7 +15,7 @@ function Contact() {
       </motion.h1>
       <div className="flex flex-col items-center space-y-2 mt-2 text-center">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/mosmoo"
           target="_blank"
           rel="noopener noreferrer"
           className="text-stone-600 hover:text-indigo-500 font-mono"
@@ -23,7 +23,7 @@ function Contact() {
           GITHUB
         </a>
         <a
-          href="https://www.linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/manasvi03/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-stone-600 hover:text-indigo-500"

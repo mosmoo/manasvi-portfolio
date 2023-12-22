@@ -48,7 +48,7 @@ function Projects() {
   ];
 
   return (
-    <div className="pt-10 ">
+    <div id="projects" className="pt-10 ">
       <motion.h1
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
