@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div id="contact" className="flex flex-col items-center mt-10 pb-16">
+    <div id="contact" className="flex flex-col items-center justify-center mt-10 pb-16">
       <motion.h1
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -13,7 +13,7 @@ function Contact() {
       >
         Connect with me!
       </motion.h1>
-      <div className="flex items-center rounded-full px-4 py-2 border border-stone-600 space-x-4 mt-2">
+      <div className="flex flex-col items-center space-y-2 mt-2 text-center">
         <a
           href="https://github.com/yourusername"
           target="_blank"

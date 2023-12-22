@@ -7,9 +7,15 @@ function Navbar() {
         <li className="hover:text-indigo-100 rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
           <a href="#home">Home</a>
         </li>
+
         <li className="hover:text-indigo-100 rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
           <a href="#projects">Projects</a>
         </li>
+
+        <li className="hover:text-indigo-100 rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
+          <a href="#aboutme">About Me</a>
+        </li>
+        
         <li className="hover:text-white rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
           <a href="#resume">Resume</a>
         </li>
