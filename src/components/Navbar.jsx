@@ -54,7 +54,7 @@ function Navbar() {
         </li>
 
         <li className="hover:text-white rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
-          <a href="#resume">Resume</a>
+          <a href="https://github.com/mosmoo/manasvi-portfolio/blob/main/src/Images/Manasvi%20Saluja%20ATS%20Resume.pdf">Resume</a>
         </li>
 
         <li className="hover:text-white rounded-full px-4 py-2 border border-stone-600 hover:bg-stone-600">
