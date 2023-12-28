@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 function AboutMe() {
   const text =
-    "As a trilingual software engineer with a passion to innovate, I'm deeply immersed in the realms of full-stack development, graphic design, and fabrication. Leveraging expertise in JavaScript, Python, React, Django, and Express.js, I've spearheaded projects like Munch Meet and Food Wars, blending technology and creativity seamlessly. From mentoring in robotics to designing engaging campaigns, I've honed leadership and communication skills, amplified by immersive education from General Assembly and Generation USA. Passionate about merging technology with creativity, I seek roles that foster innovation and collaborative growth, aiming to make a meaningful impact in every endeavor.";
+    "As a trilingual software engineer with a passion to innovate, I'm deeply immersed in the realms of full-stack development, graphic design, and fabrication. Leveraging expertise in JavaScript, Python, React, Django, and Express.js, I've spearheaded projects like Munch Meet and Food Wars, blending technology and creativity seamlessly. From mentoring in robotics to designing engaging campaigns, I've honed leadership and communication skills, amplified by immersive education from General Assembly and Generation USA. Passionate about merging technology with creativity, I seek roles that foster innovation and collaborative growth, aiming to make a meaningful impact in every endeavor."
 
   const [displayText, setDisplayText] = useState("");
 
@@ -12,9 +12,9 @@ function AboutMe() {
     const interval = setInterval(() => {
       setDisplayText((prevText) => prevText + text[index]);
       index++;
-      if (index === text.length) clearInterval(interval);
+      if (index === text.length - 1) clearInterval(interval); // Adjusted condition here
     }, 50);
-
+  
     return () => clearInterval(interval);
   }, []);
 
